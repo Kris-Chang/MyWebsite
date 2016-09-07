@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
-    @RequestMapping(value="/start.do")
+    @RequestMapping(value="/index.do")
     public String action(){
-        return "hello";
+        return "index";
     }
 }
