@@ -8,7 +8,7 @@
                http://www.springframework.org/schema/context
                http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:annotation-config />
+    <context:annotation-config/>
     <context:component-scan base-package="com.kris"/>
 
 
@@ -16,9 +16,9 @@
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
 
 
-    <mvc:velocity-configurer resource-loader-path="/WEB-INF,classpath:com/kris" />
+    <mvc:velocity-configurer resource-loader-path="/WEB-INF,classpath:com/kris"/>
     <mvc:view-resolvers>
-        <mvc:velocity cache-views="false" prefix="vm/" suffix=".vm" />
+        <mvc:velocity cache-views="false" prefix="vm/" suffix=".vm"/>
     </mvc:view-resolvers>
 
 </beans>
